@@ -7,14 +7,31 @@
 .glider-next,
 .glider-prev {
     color: black;
-    top: 41%;
+    top: 0;
+    width: 50%;
+    height: 100%;
 }
 
 .glider-next {
-    right: 1%;
+    right: 0px;
+    // background: red;
+    background: transparent;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/cursor-next.cur), move;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/cursor-next.svg) 40 40, move;
+
+    i {
+        display: none;
+    }
 }
 .glider-prev {
-    left: 1%;
+    left: 0px;
+    // background: blue;
+    background: transparent;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/cursor-prev.cur), move;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/cursor-prev.svg) 40 40, move;
+    i {
+        display: none;
+    }
 }
 
 .glider-next:focus,
@@ -22,16 +39,16 @@
 .glider-prev:focus,
 .glider-prev:hover {
   color: #474747;
-  cursor: url("../img/cursor/cursor-green.png")  10 10, auto;
+//   cursor: url("../img/cursor/cursor-green.png")  10 10, auto;
 }
 
 .glider-dot:hover {
-    cursor: url("../img/cursor/cursor-green.png")  10 10, auto;
+    // cursor: url("../img/cursor/cursor-green.png")  10 10, auto;
 }
 
 .glider-dot.active {
     background: black;
-    cursor: url("../img/cursor/cursor-green.png")  10 10, auto;
+    // cursor: url("../img/cursor/cursor-green.png")  10 10, auto;
 }
 
 .glider {
@@ -45,27 +62,28 @@
 }
 
 .glider-dots {
-    margin-top: 1.2rem;
+    // margin-top: 1.2rem;
+    display: none;
 }
 
 .glider-contain {
     margin-bottom: 3.5rem;
 }
 
-@media (max-width: 500px) {
-    .glider-dots {
-        display: none;
-    }
-    .glider-contain {
-        margin-bottom: 3rem;
-    }
-    .glider-next {
-        display: none;
-        right: 2%;
-    }
-    .glider-prev {
-        display: none;
-        left: 2%;
-    }
-}
+// @media (max-width: 500px) {
+//     .glider-dots {
+//         display: none;
+//     }
+//     .glider-contain {
+//         margin-bottom: 3rem;
+//     }
+//     .glider-next {
+//         display: none;
+//         right: 2%;
+//     }
+//     .glider-prev {
+//         display: none;
+//         left: 2%;
+//     }
+// }
 
