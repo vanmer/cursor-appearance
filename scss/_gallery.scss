@@ -1,0 +1,27 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    grid-gap: 0.5rem 0.5rem;
+    margin: 0 1rem;
+}
+
+.gallery img {
+    transition: 1s;
+    // padding: 1rem;
+    align-self: center;
+    justify-self: center;
+    width: 300px;
+    // width: 80%;
+}
+
+.gallery img:hover {
+    filter: grayscale(100%);
+    // transform: scale(1.05);
+}
+
+.lb-data .lb-close:hover {
+    cursor: url("../img/cursor/cursor-green.png")  10 10, auto;
+}
+
+

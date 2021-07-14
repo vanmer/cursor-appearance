@@ -1,7 +1,7 @@
 @import "config";
 @import "slider";
 @import "gallery";
-@import "cursor";
+// @import "cursor";
 @import "close";
 @import "footer-back";
 @import "arrow-left";
@@ -351,5 +351,4 @@ a {
     margin: 0 auto 2rem auto;
 }
 
-@import "cookie";
-@import "media-info";
+@import "media";

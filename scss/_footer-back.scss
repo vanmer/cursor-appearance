@@ -1,0 +1,35 @@
+.footer {
+    border-top: 1px solid $primary-color;
+    padding: 1.2rem 1rem 2rem 1rem;
+  
+    .home {
+      font-size: 1.5rem;
+      color: $primary-color;
+      font-weight: 500;
+  
+      i {
+        margin-right: 0.7rem;
+      }
+  
+      &:hover {
+        text-decoration: line-through;
+      }
+    }
+  }
+  
+  @media (max-width: 1030px) {
+    .footer {
+      .home {
+        margin-left: 1rem;
+      }
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .footer {
+      .home {
+        margin-left: 0;
+      }
+    }
+  }
+  

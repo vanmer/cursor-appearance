@@ -1,0 +1,120 @@
+@media (max-width: 1400px) {
+    #wrapper {
+      padding: 0 6rem;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    #wrapper {
+      padding: 0 4rem;
+    }
+    .project-name {
+      .project-title {
+        font-size: 4rem;
+      }
+    }
+   
+  }
+  
+  @media (max-width: 1030px) {
+    #wrapper {
+      padding: 0;
+    }
+    .project-name {
+      .project-title {
+        font-size: 3.5rem;
+      }
+    }
+    .footer {
+      .home {
+        margin-left: 2rem;
+      }
+    }
+    .projects-grid .project-info p {
+      font-size: 1.3rem;
+    }
+    .projects-grid .show-animation-item{
+      padding-bottom: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 770px) {
+    #wrapper {
+      padding: 0;
+    }
+    .project-name {
+      .project-title {
+        font-size: 3rem;
+        width: 60%;
+      }
+    }
+    .projects-grid .project-info {
+      grid-column: 1 / 9;
+      p {
+        font-size: 1.2rem;
+      }
+    }
+    .projects-grid .show-animation-item{
+      padding-bottom: 2rem;
+    }
+  }
+  
+  @media only screen and (orientation: portrait) and (max-width: 500px) {
+    .project-name {
+      width: 100%;
+      padding: 1.6rem 0;
+      line-height: 1.2;
+  
+      .project-title {
+        font-size: 2rem;
+        width: 60%;
+      }
+    }
+    .portfolio-item {
+      margin-top: 2rem;
+    }
+    .project-desc {
+      font-size: 1.3rem;
+    }
+    .projects-grid .presentation-section {
+      padding: 0 0 1rem 0;
+    }
+    .projects-grid .project-info {
+      grid-column: 1 / 9;
+      margin: 0 0 3rem 0;
+      p {
+        font-size: 1rem;
+      }
+    }
+    .carousel-section {
+      margin-bottom: -2rem;
+    }
+    .projects-grid .video-embedded {
+      margin: 0 0 1rem 0;
+    }
+    .middle {
+      opacity: 1;
+    }
+    .projects-grid .show-animation-item{
+      padding-bottom: 1.5rem;
+    }
+    .projects-grid .mockup {
+      padding: 2rem 0;
+    }
+    .projects-grid .mockup-item {
+      padding: 1rem 0;
+    }
+    .projects-grid .style-guide .image-desktop {
+      display: none;
+    }
+    .projects-grid .style-guide .image-mobile {
+      display: block;
+    }
+    .footer {
+      padding: 1.2rem 1rem 1.2rem 1rem;
+    }
+    .projects-grid .project-info .project-desc .github {
+      font-size: 1rem;
+    }
+  }
+  
